@@ -14,5 +14,5 @@
 ### DEV
 
 <div>
-  <a href="">a</a>
+  <a href="https://discord.gg/j8zuVnCJbB">PlaceHolder (redirige vers le clan Mbappé)</a>
 </div>
