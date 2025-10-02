@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Noto+Sans:wght@100..900&display=swap');
+
+html {
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.Titre > li {
+    list-style-type: lower-greek;
+    font-size: 2em;
+}
+
+li {
+    font-size: 1rem;
+}
+
+ul {
+    font-size: 1rem;
+}
+
+.Crimson > li::first-letter {
+    font-size : 4em;
+    color: crimson;
+}

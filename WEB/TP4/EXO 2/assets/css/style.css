@@ -1,0 +1,45 @@
+:root {
+    --orange-clair: oklch(0.855 0.140 55.029);
+    --orange-fonce: oklch(0.780 0.140 55.029);
+    --jaune-clair: oklch(0.855 0.140 75.029);
+    --jaune-fonce: oklch(0.780 0.140 75.029);
+    --bgc-header: #f2f2f2; /*gris clair */
+    --text-header: #333;    /* gris foncé */
+    --border-color: #ddd    /* gris */
+}
+table {
+    width: 100%;
+    text-align: center;
+    background-color: var(--border-color);
+}
+
+th {
+    background-color: var(--bgc-header);
+    border-color: var(--border-color);
+    font-family: "Arial Rounded MT Bold", sans-serif;
+}
+.orange > td {
+    padding: 20px;
+    background-color: var(--orange-clair);
+    border: 1px solid var(--border-color);
+    font-family: "Arial Rounded MT Bold", sans-serif;
+}
+
+.orange > td:hover {
+    background-color: var(--orange-fonce);
+}
+
+.jaune > td {
+    background-color: var(--jaune-clair);
+    border: 1px solid var(--border-color);
+    font-family: "Arial Rounded MT Bold", sans-serif;
+}
+
+.jaune > td:hover {
+    background-color: var(--jaune-fonce);
+}
+
+table > caption {
+    color: var(--text-header);
+    font-size: 25px;
+}
